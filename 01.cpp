@@ -1,3 +1,5 @@
+// To identify whether a given string is a keyword or not.
+
 #include <iostream>
 #include <string>
 using namespace std;
