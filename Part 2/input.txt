@@ -1,2 +1,49 @@
-hello world
-this is test
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20, c = 0;
+
+    // Arithmetic operators
+    c = a + b;
+    c = a - b;
+    c = a * b;
+    c = b / a;
+    c = b % a;
+
+    // Relational operators
+    if (a == b)
+        cout << "Equal\n";
+    else if (a != b)
+        cout << "Not Equal\n";
+    if (a > b)
+        cout << "a > b\n";
+    else if (a < b)
+        cout << "a < b\n";
+    if (a >= b || a <= b)
+        cout << "Either greater or smaller\n";
+
+    // Logical operators
+    if ((a > 0 && b > 0) || c == 0)
+        cout << "Condition true\n";
+
+    // Bitwise operators
+    int x = a & b;
+    int y = a | b;
+    int z = a ^ b;
+    x = x << 1;
+    y = y >> 1;
+
+    // Assignment operators
+    a += 5;
+    b -= 2;
+    c *= 3;
+    a /= 2;
+    b %= 3;
+
+    // Miscellaneous
+    bool flag = true;
+    flag = !flag;
+
+    return 0;
+}
