@@ -4,20 +4,11 @@
 #include <string>
 #include <unordered_set>
 #include <fstream>
+#include "functions.h";
+
 using namespace std;
 
-const char operators[] = {'+', '-', '*', '/', '%', '<', '>', '=', '!', '&', '|'};
 
-bool isOperator(const char &op)
-{
-    int n = sizeof(operators) / sizeof(operators[0]);
-    for (int i = 0; i < n; i++)
-    {
-        if (op == operators[i])
-            return true;
-    }
-    return false;
-}
 
 int main()
 {
